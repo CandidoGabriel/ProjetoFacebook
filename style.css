@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Fredoka One";
+}
+.center{
+	width: 1100px;
+	padding: 0 2%;
+	margin: 0 auto;
+}
+.clear{
+	clear: both;
+}
+header{
+	background: #F0F1F2;
+	padding: 8px 0;
+}
+div.logo{
+	float: left;
+	color: #1B8EF2;
+}
+.logo h2{
+	font-size: 36px;
+	font-weight: normal;
+}
+form.form-login{
+	float: right;
+}
+.form-login .form-element{
+	display: inline-block;
+	margin-right: 15px;
+}
+.form-element p{
+	color: white;
+	font-size: 14px;
+}
+.form-element input[type=email]:focus,
+.form-element input[type=senha]:focus,
+.form-element input[type=submit]:focus{
+	outline: 0;
+	border: 1px solid #1B8EF2;
+}
+.form-element input[type=email],
+.form-element input[type=senha]{
+	border: 1px solid #ccc;
+	padding: 10px 13px;
+	border-radius: 6px;
+	width: 264px;
+	height: 40px;
+	margin-top: 4px;
+}
+.form-element input[type=submit]{
+	border-radius: 6px;
+	width: 88px;
+	height: 40px;
+	cursor: pointer;
+	border: 0;
+	background: #1B8EF2;
+	color: white;
+	padding: 3px 5px;
+}
+section.main{
+	background: #F0F1F2;
+	padding: 40px 0;
+}
+.img-pessoal{
+	float: left;
+	width: 66.6%;
+}
+.img-pessoal img{
+	max-width: 100%;
+}
+.abrir-conta{
+	width: 33.3%;
+	float: left;
+}
+.abrir-conta h2{
+	color: black;
+	font-size: 35px;
+}
+.abrir-conta h3{
+	font-size: 19px;
+	color: rgb(30,30,30);
+	margin-top: 8px;
+	font-weight: normal;
+}
+form.criar-conta{
+	margin-top: 10px;
+}
+.w50{
+	padding: 0 5px;
+	width: 50%;
+	float: left;
+}
+.w100{
+	padding: 0 5px;
+	width: 100%;
+	float: left;
+}
+form.criar-conta input{
+	border: 1px solid #ccc;
+	padding: 10px 13px;
+	border-radius: 6px;
+	width: 264px;
+	height: 40px;
+	margin-top: 4px;
+	width: 100%;
+}
+form.criar-conta input:focus{
+	outline: 0;
+	border: 1px solid #1B8EF2;
+}
+form.criar-conta input[type=submit]{
+	background: #41B529;
+	color: white;
+	cursor: pointer;
+	max-width: 200px;
+}
